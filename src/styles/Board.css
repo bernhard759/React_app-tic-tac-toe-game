@@ -1,0 +1,27 @@
+.board,
+.gameover {
+  margin: 0 auto;
+  padding: 1em;
+  width: 50vmin;
+  aspect-ratio: 1;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+
+.gameover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.gameover div {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
