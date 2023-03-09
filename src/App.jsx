@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <h1>Tic tac toe game</h1>
-      <p className="subheader">Built with ReactJS</p>
+      <h2>Built with ReactJS</h2>
       <Board></Board>
     </>
   );
